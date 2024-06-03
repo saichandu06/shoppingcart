@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="registration.css">
+ </head>
+ <body>
+  <div class="main">
+  <h2>Registration Form</h2>
+  <form action="">
+   <p>First Name</p>
+   <input type="text" id="first" name="first" required>
+
+   <p>Last Name</p>
+   <input type="text" id="last" name="last" required>
+
+   <p>Email</p>
+   <input type="email" id="email" name="email" required>
+
+   <p>Password</p>
+   <input type="password" id="password" name="password" title="password must contain at least one number, one alphabet, one symbol, and be at least 8 character long" required>
+
+   <p>Re-Password</p>
+   <input type="password" id="repassword" name="repassword" required>
+
+   <p>Contact</p>
+   <input type="number" id="mobile" name="mobile" maxlength="10" required>
+
+   <p>Gender</p>
+   <select id="gender" name="gender" required>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+   </select>
+   <button type="submit">Submit</button>
+  </form>
+ </div>
+ </body>
+</html>
